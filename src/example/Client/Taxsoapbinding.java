@@ -5,9 +5,9 @@
  * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
  */
 
-package example.client;
+package example.Client;
 
-public class CalTaxSoapBindingStub extends org.apache.axis.client.Stub implements example.client.CalTax_PortType {
+public class Taxsoapbinding extends org.apache.axis.client.Stub implements Tax_PortType {
     private java.util.Vector cachedSerClasses = new java.util.Vector();
     private java.util.Vector cachedSerQNames = new java.util.Vector();
     private java.util.Vector cachedSerFactories = new java.util.Vector();
@@ -36,16 +36,16 @@ public class CalTaxSoapBindingStub extends org.apache.axis.client.Stub implement
 
     }
 
-    public CalTaxSoapBindingStub() throws org.apache.axis.AxisFault {
+    public Taxsoapbinding() throws org.apache.axis.AxisFault {
          this(null);
     }
 
-    public CalTaxSoapBindingStub(java.net.URL endpointURL, javax.xml.rpc.Service service) throws org.apache.axis.AxisFault {
+    public Taxsoapbinding(java.net.URL endpointURL, javax.xml.rpc.Service service) throws org.apache.axis.AxisFault {
          this(service);
          super.cachedEndpoint = endpointURL;
     }
 
-    public CalTaxSoapBindingStub(javax.xml.rpc.Service service) throws org.apache.axis.AxisFault {
+    public Taxsoapbinding(javax.xml.rpc.Service service) throws org.apache.axis.AxisFault {
         if (service == null) {
             super.service = new org.apache.axis.client.Service();
         } else {

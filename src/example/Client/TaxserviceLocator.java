@@ -5,19 +5,19 @@
  * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
  */
 
-package example.client;
+package example.Client;
 
-public class CalTaxServiceLocator extends org.apache.axis.client.Service implements example.client.CalTaxService {
+public class TaxserviceLocator extends org.apache.axis.client.Service implements Taxservice {
 
-    public CalTaxServiceLocator() {
+    public TaxserviceLocator() {
     }
 
 
-    public CalTaxServiceLocator(org.apache.axis.EngineConfiguration config) {
+    public TaxserviceLocator(org.apache.axis.EngineConfiguration config) {
         super(config);
     }
 
-    public CalTaxServiceLocator(java.lang.String wsdlLoc, javax.xml.namespace.QName sName) throws javax.xml.rpc.ServiceException {
+    public TaxserviceLocator(java.lang.String wsdlLoc, javax.xml.namespace.QName sName) throws javax.xml.rpc.ServiceException {
         super(wsdlLoc, sName);
     }
 
@@ -39,7 +39,7 @@ public class CalTaxServiceLocator extends org.apache.axis.client.Service impleme
         CalTaxWSDDServiceName = name;
     }
 
-    public example.client.CalTax_PortType getCalTax() throws javax.xml.rpc.ServiceException {
+    public Tax_PortType getCalTax() throws javax.xml.rpc.ServiceException {
        java.net.URL endpoint;
         try {
             endpoint = new java.net.URL(CalTax_address);
@@ -50,9 +50,9 @@ public class CalTaxServiceLocator extends org.apache.axis.client.Service impleme
         return getCalTax(endpoint);
     }
 
-    public example.client.CalTax_PortType getCalTax(java.net.URL portAddress) throws javax.xml.rpc.ServiceException {
+    public Tax_PortType getCalTax(java.net.URL portAddress) throws javax.xml.rpc.ServiceException {
         try {
-            example.client.CalTaxSoapBindingStub _stub = new example.client.CalTaxSoapBindingStub(portAddress, this);
+            Taxsoapbinding _stub = new Taxsoapbinding(portAddress, this);
             _stub.setPortName(getCalTaxWSDDServiceName());
             return _stub;
         }
@@ -72,8 +72,8 @@ public class CalTaxServiceLocator extends org.apache.axis.client.Service impleme
      */
     public java.rmi.Remote getPort(Class serviceEndpointInterface) throws javax.xml.rpc.ServiceException {
         try {
-            if (example.client.CalTax_PortType.class.isAssignableFrom(serviceEndpointInterface)) {
-                example.client.CalTaxSoapBindingStub _stub = new example.client.CalTaxSoapBindingStub(new java.net.URL(CalTax_address), this);
+            if (Tax_PortType.class.isAssignableFrom(serviceEndpointInterface)) {
+                Taxsoapbinding _stub = new Taxsoapbinding(new java.net.URL(CalTax_address), this);
                 _stub.setPortName(getCalTaxWSDDServiceName());
                 return _stub;
             }

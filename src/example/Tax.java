@@ -1,7 +1,7 @@
 package example;
 
 //细节：注意更改server-config
-public class CalTax {
+public class Tax {
     public String CalTax(String wages){
         double[] start_wages = {85000, 60000, 40000, 30000, 17000, 8000, 5000, 1};
         double[] tax_rate = {0.45, 0.35, 0.3, 0.25, 0.2, 0.1, 0.03, 0};
