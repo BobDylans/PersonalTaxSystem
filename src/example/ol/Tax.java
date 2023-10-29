@@ -1,4 +1,4 @@
-package example;
+package example.ol;
 
 //细节：注意更改server-config
 public class Tax {

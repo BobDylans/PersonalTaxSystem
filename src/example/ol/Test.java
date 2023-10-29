@@ -1,4 +1,4 @@
-package example;
+package example.ol;
 
 import example.Client.TaxserviceLocator;
 import example.Client.Tax_PortType;

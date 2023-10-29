@@ -6,28 +6,21 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9adc4146-7f29-4c32-bc29-038083d201cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9adc4146-7f29-4c32-bc29-038083d201cf" name="Default Changelist" comment="第一次提交">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/experiment02/example/CalTax.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/experiment02/example/CalTax.wsdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/experiment02/example/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/experiment02/example/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/experiment02/example/client/CalTax.wsdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/experiment02/example/client/CalTaxService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/experiment02/example/client/CalTaxServiceLocator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/experiment02/example/client/CalTaxSoapBindingStub.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/experiment02/example/client/CalTax_PortType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example/CalTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/Tax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example/CalTax.wsdl" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/Client/Tax.wsdl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example/client/CalTax.wsdl" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/Tax.wsdl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example/client/CalTaxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/Client/Taxservice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example/client/CalTaxServiceLocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/Client/TaxserviceLocator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example/client/CalTaxSoapBindingStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/Client/Taxsoapbinding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example/client/CalTax_PortType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/Client/Tax_PortType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/experiment02_war_exploded/WEB-INF/classes/example/CalTax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/experiment02_war_exploded/WEB-INF/classes/example/CalTax.wsdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/experiment02_war_exploded/WEB-INF/classes/example/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/experiment02_war_exploded/WEB-INF/classes/example/client/CalTax.wsdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/experiment02_war_exploded/WEB-INF/classes/example/client/CalTaxService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/experiment02_war_exploded/WEB-INF/classes/example/client/CalTaxServiceLocator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/experiment02_war_exploded/WEB-INF/classes/example/client/CalTaxSoapBindingStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/experiment02_war_exploded/WEB-INF/classes/example/client/CalTax_PortType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/experiment02_war_exploded/WEB-INF/server-config.wsdd" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/experiment02_war_exploded/WEB-INF/server-config.wsdd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/experiment02/example/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/Tax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/ol/Tax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/Tax.wsdl" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/wsdl/Tax.wsdl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/ol/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/server-config.wsdd" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/server-config.wsdd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,18 +126,25 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="应用程序.Test">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\calculate-tax-web-servicePLUS\src\example\wsdl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat 服务器.Tomcat 8.5.85">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.Test" />
+      <option name="MAIN_CLASS_NAME" value="example.ol.Test" />
       <module name="experiment02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.*" />
+          <option name="PATTERN" value="example.ol.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -268,8 +268,16 @@
       <workItem from="1666445157572" duration="5729000" />
       <workItem from="1666494312515" duration="2842000" />
       <workItem from="1666500836799" duration="7651000" />
-      <workItem from="1698583012053" duration="447000" />
+      <workItem from="1698583012053" duration="1068000" />
     </task>
+    <task id="LOCAL-00001" summary="第一次提交">
+      <created>1698583619908</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698583619908</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -334,6 +342,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
